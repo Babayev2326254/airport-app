@@ -61,7 +61,7 @@ def main():
             flight_id = input("Enter id: ")
             delete_flight(flight_id,conn)
         elif choice == '8':
-            booking_id = int(input("Enter id: "))
+            booking_id = input("Enter id: ")
             delete_booking(booking_id,conn)
         elif choice == '9':
             origin = input("Enter origin city: ")
